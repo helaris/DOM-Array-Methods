@@ -52,6 +52,11 @@ button{
     font-size: 14px;
 }
 
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--main-light-color);
+}
+
 
 
 main {
