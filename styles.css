@@ -34,6 +34,10 @@ aside{
     border-right: 2px solid var(--main-dark-color);
 } 
 
+button:focus{
+    outline: none;
+}
+
 button{
     background-color: var(--main-light-color);
     border: solid 2px var(--main-dark-color);
@@ -47,6 +51,8 @@ button{
     font-weight: 700;
     font-size: 14px;
 }
+
+
 
 main {
     flex: 1;
